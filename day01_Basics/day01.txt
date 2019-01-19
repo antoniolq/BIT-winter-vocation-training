@@ -1,0 +1,86 @@
+侯潇沐
+字节跳动工程师
+1.18
+overview
+开营讲座：
+@抖音背后的客户端技术
+核心技术=创作+分发+互动
+（UGC-user generrated contend）
+（PGC-professional generated contend ）
+全球化的技术支撑
+客户端的核心价值-用户体验
+android+ios（音视频，ml，vr/ar...）
+核心：功能和体验
+支撑技术：
+工程架构：模块化，细节化，动态化（热修复热更新+插件化）
+基础能力：多媒体，网络，存储（kv，ORM，数据库映射），辅助
+业务范式：业务编程范式，线程模型，消息通信模型
+性能优化：速度优化，包体优化，存储优化，电量优化
+质量保证：代码审查，线下问题监控，线上问题监控，远程调试&问题复现
+效率提升：版本迭代&项目管理，CI/CD（持续集成/分发），自动化测试
+客户端技术未来趋势：
+现代化的编程语言（kotlin、swift）
+跨端技术框架（React-Native、Flutter）
+端上智能化（智能预测，智能性能分析，智能网络选路）
+@关于训练营
+目标：开发迷你抖音
+内容：UI，存储，网络，多媒体
+形式：上午讲授知识点，下午布置作业，最后分组完成大作业
+考核：现场演示+代码email审核
+项目大作业：项目演示答辩+代码email审核
+成绩合格：结业证书
+
+安卓简介:
+安卓历史：功能机+伪智能机
+系统架构：linux内核->HAL->Android Runtime->C/C++lib&JVM->Framework->System apps
+linux kernel（IPC跨进程通信Binder，基于memory shared）
+HAL（硬件抽象层）
+Native Lib&JVM
+Framework（Java API Framework）
+System Apps（launcher）
+安卓应用程序：
+APK（Android Package Kit）
+---本质是一个zip文件
+---AndroidManifest
+---Dex
+---resources
+sandbox技术
+---基于Linux用户管理权限
+---每个应用有一个独立用户id
+---每个进程有自己的VM
+---Apps之间无法“直接”访问数据
+应用组件
+---Activity（页面容器）
+---Service（后台常驻任务）
+---Content Provider（数据提供）
+---Broadcast Receiver（广播消息接收器）
+Android 
+JDK+SDK+IDE
+Android SDK
+---SDK Platforms
+---Build-Tools
+---Platform-Tolls
+---Emulator
+（电脑x86/手机ARM）
+系统如何区分应用（Package Name+签名）
+版本：4.0.3
+关于版本号的三个概念
+min SDK version（能跑的最小的手机版本号15）
+Compile SDK Version（编译打包用的版本号越新越好）
+Target SDK version（应用运行时的行为表现7.0）
+APP代码结构
+运行APP（监听事件）
+为APP添加图片资源（copy图片到app/src/）
+打包
+
+必备技能
+日志
+---日志输出log.d()
+---查看日志
+adb
+---把安卓设备和开发主机连接起来
+---支持USB连接和网络连接
+---提供console，执行shell命令
+---支持文件传输功能
+git
+---相关指令
