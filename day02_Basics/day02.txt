@@ -59,6 +59,49 @@ StartActivityForResult
 显示toast
 OnActivityResult
 
+XML（对象+属性）
+可扩展标记语言
+用来传送和携带数据信息
+安卓使用PULL解析（其他解析DOM，SAX）
+Manifest，layout文件
 
+Manifest
+由android解析
+作用；apk内容以及权限
 
+View
+View和ViewGroup（可嵌套）
+linearlayout，relativelayout，framelayout
+match-parent全部填满
+wrap-parent根据容器内的东西决定组件的大小
+gravity和layout-gravity
+gravity是设置自身内部元素的对齐方式。比如一个TextView，则是设置内部文字的对齐方式。如果是ViewGroup组件如LinearLayout的话，则为设置它内部view组件的对齐方式。
+layout_gravity是设置自身相当于父容器的对齐方式。比如，一个TextView设置layout_gravity属性，则表示这TextView相对于父容器的对齐方式。
+weight比例关系
+使用weight属性时的换算关系（设置为0，即为填满按比例分配）
+ralativeLayout
+frameLayout（越在下面越优先展示-层级概念）
+Dp&Sp
+px像素 UI设计计量单位
+屏幕分辨率 横纵像素点
+屏幕尺寸 斜对角线（英寸）
+dpi屏幕像素密度 dpi越高，越清晰
+由于安卓手机碎片化严重，提出dp（digital pixel）
+160dpi设备中，1dp=1px
+sp在dp的基础上，乘以了系数以满足用户的preference
+换算关系：
+px = dp + （dpi/160）
+
+高级组件RecycleView
+最为常见的控件
+为什么使用RecycleView
+其他方法占用内存
+定义及工作原理
+有缓存池
+使用方法：
+1.导包
+2.导入控件
+3.找到recycleview
+4.设置子项
+5.进行Adapter（数据容器适配器）（ViewHolder）
 
