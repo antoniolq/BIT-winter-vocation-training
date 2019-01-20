@@ -1,5 +1,6 @@
 package com.example.antonio.day02_basics;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -39,6 +40,7 @@ public class LinearAdapter extends RecyclerView.Adapter<LinearAdapter.LinearView
         return new LinearViewHolder(LayoutInflater.from(mContext).inflate(R.layout.im_list_item,parent,false));
     }
 
+    @SuppressLint("WrongConstant")
     @Override
     public void onBindViewHolder(@NonNull LinearAdapter.LinearViewHolder holder, final int position) {
         System.out.print(mMessages);
@@ -56,8 +58,10 @@ public class LinearAdapter extends RecyclerView.Adapter<LinearAdapter.LinearView
         else
             holder.mIcon.setImageResource(R.drawable.icon_girl);
 
-        if(mMessages.get(position).isOfficial())
-            holder.mImg.setImageResource(R.drawable.im_icon_notice_official);
+        if(mMessages.get(position).isOfficial()) {
+            int flag = 1;
+            holder.mImg.setVisibility(flag);
+        }
 
         holder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -69,7 +73,7 @@ public class LinearAdapter extends RecyclerView.Adapter<LinearAdapter.LinearView
 
     @Override
     public int getItemCount() {
-        return 100;
+        return mMessages.size();
     }
 
     class LinearViewHolder extends RecyclerView.ViewHolder{
