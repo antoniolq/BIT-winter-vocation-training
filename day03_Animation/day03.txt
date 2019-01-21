@@ -28,3 +28,35 @@ Animation
 View相关动画
 View Animation；android.view.animation(duration,propertyName,valuename)-(setTarget)
 Property Animation：android.animation
+基本的类
+Property
+ObjectAnimation（周期性的回调-OnAnimationUpdate）
+~~~view-setAlpha(0-1f) ValueAnimator进行回调
+AnimatorSet（需要定义一套语义顺序）
+视觉——drawable   交互——view
+drawable
+---静态drawable
+---animation drawable
+让Drawable动起来
+Animation Drawable（效率低）
+AnimatedVectorDrawable
+Lottie（将设计师输出的资源直接应用）
+
+Fragment
+平板环境及手机环境
+如何提升开发效率，节约开发成本
+Fragment：界面中的一部分
+详情页+列表页（UI重用）
+Responsive Design
+动态添加/删除Fragment
+~FragmentManager（动态添加/删除/替换Fragment|FragmentTransaction）
+~Fragment容器
+Communication
+
+资源差异化
+有一组configuration
+
+
+
+
+
