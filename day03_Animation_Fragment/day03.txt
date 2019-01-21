@@ -1,0 +1,30 @@
+Why Library
+~Wheels,Reuse
+~Add Feature
+~Reduce boilerplate code
+Demo-use ButterKnife
+.build.gradle
+oop用例图
+软件构建
+输入（源代码+资源）------->apk
+stage1 ->  stage2
+stage1:annotationProcessor 'com.jakewharton:butterknife-compiler:8.8.1'
+stage2:implementation 'com.jakewharton:butterknife:8.8.1'
+版本号：主版本号+次版本号+bug-fix
+~butterKnife代码简化
+Module dependency：{configuration} "{group}:{name}:{version}"
+Repository
+reponstory{
+jcenter()
+mavenCentral()
+google()
+maven{url:"http...."}
+}
+Where to find(stackoverflow/android support library/Jetpack/codepath)
+How to choose(mainteinance/Issues/features/license)
+
+Animation
+动画的意义：用户体验+视觉反馈+Information/focus/Expressive
+View相关动画
+View Animation；android.view.animation(duration,propertyName,valuename)-(setTarget)
+Property Animation：android.animation

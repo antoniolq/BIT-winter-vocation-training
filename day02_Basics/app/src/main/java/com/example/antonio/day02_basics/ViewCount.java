@@ -19,7 +19,7 @@ public class ViewCount extends AppCompatActivity {
         TextView number = findViewById(R.id.statistics);
         if (getWindow().getDecorView().getRootView() instanceof ViewGroup){
 //            int num = getChildrenViews((ViewGroup) getWindow().getDecorView().getRootView());
-            int num = countChild(getWindow().getDecorView().getRootView());
+            int num = countChild(getWindow().getDecorView().getRootView())-2;
             number.setText(Integer.toString(num));
         }
     }
