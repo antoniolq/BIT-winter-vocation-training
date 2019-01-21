@@ -2,8 +2,8 @@
 
 ***
 ##Day01
-Basic knowledge£¨History£¬Env£¬First Application£©
+Basic knowledge(History,Env,First Application)
 ##Day02
-Activity Basics£¬View Layout£¬UI Component£¬RecyclerView
+Activity Basics,View Layout,UI Component,RecyclerView
 ##Day03
-Library£¬Animation£¬Fragment
+Library,Animation,Fragment
