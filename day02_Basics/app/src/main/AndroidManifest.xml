@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
         <activity android:name=".xmlparser.XmlActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -19,8 +18,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".ViewCount" />
-        <activity android:name=".StateInspect"></activity>
-        <activity android:name=".RecyclerViewActivity"></activity>
+        <activity android:name=".StateInspect" />
+        <activity android:name=".RecyclerViewActivity" />
+        <activity android:name=".SaveInstanceStateActivity" />
     </application>
 
 </manifest>
