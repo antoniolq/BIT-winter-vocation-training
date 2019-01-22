@@ -34,6 +34,7 @@ ObjectAnimation（周期性的回调-OnAnimationUpdate）
 ~~~view-setAlpha(0-1f) ValueAnimator进行回调
 AnimatorSet（需要定义一套语义顺序）
 视觉——drawable   交互——view
+
 drawable
 ---静态drawable
 ---animation drawable
