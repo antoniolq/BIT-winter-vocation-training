@@ -90,7 +90,7 @@ dpi屏幕像素密度 dpi越高，越清晰
 160dpi设备中，1dp=1px
 sp在dp的基础上，乘以了系数以满足用户的preference
 换算关系：
-px = dp + （dpi/160）
+px = dp + (dpi/160）
 
 高级组件RecycleView
 最为常见的控件
