@@ -2,7 +2,10 @@ package com.bytedance.android.lesson.restapi.solution.utils;
 
 
 import com.bytedance.android.lesson.restapi.solution.bean.Cat;
+import com.bytedance.android.lesson.restapi.solution.bean.Feed;
+import com.bytedance.android.lesson.restapi.solution.bean.FeedResponse;
 import com.bytedance.android.lesson.restapi.solution.newtork.ICatService;
+import com.bytedance.android.lesson.restapi.solution.newtork.IMiniDouyinService;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedReader;
